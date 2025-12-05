@@ -1,0 +1,21 @@
+[debug] > Exec(all {file:/C:/Users/detzi/Desktop/ESGI/ESGI4/T1B4.%20Programmation%20fonctionnelle%20avec%20scala/TD3/HuntedLaby/}huntedlaby/products {file:/C:/Users/detzi/Desktop/ESGI/ESGI4/T1B4.%20Programmation%20fonctionnelle%20avec%20scala/TD3/HuntedLaby/}huntedlaby/Test/products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\target\scala-3.3.7\classes ...
+[error] -- [E018] Syntax Error: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\logic.scala:45:81 
+[error] 45 |  private def findPath(maze: Maze, from: Coord, to: Coord): Option[List[Coord]] =
+[error]    |                                                                                 ^
+[error]    |                                   expression expected but private found
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\Main.scala:149:31 
+[error] 149 |                    val next = step(current, in)
+[error]     |                               ^^^^
+[error]     |                               Not found: step
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] two errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 2 s, completed 5 déc. 2025, 15:35:58
+[debug] > Exec(idea-shell, None, None)

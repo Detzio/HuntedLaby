@@ -1,0 +1,45 @@
+[debug] > Exec(all {file:/C:/Users/detzi/Desktop/ESGI/ESGI4/T1B4.%20Programmation%20fonctionnelle%20avec%20scala/TD3/HuntedLaby/}huntedlaby/products {file:/C:/Users/detzi/Desktop/ESGI/ESGI4/T1B4.%20Programmation%20fonctionnelle%20avec%20scala/TD3/HuntedLaby/}huntedlaby/Test/products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\target\scala-3.3.7\classes ...
+[error] -- [E040] Syntax Error: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\Main.scala:160:0 
+[error] 160 |
+[error]     |^
+[error]     |'}' expected, but eof found
+[error] -- [E007] Type Mismatch Error: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\Main.scala:145:15 
+[error] 145 |          case Won | Lost | GameQuit =>
+[error]     |               ^^^
+[error]     |         Found:    (huntedlaby.GameStatus.Won : huntedlaby.GameStatus)
+[error]     |         Required: Option[huntedlaby.PlayerInput]
+[error]     |         pattern type is incompatible with expected type
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\Main.scala:145:21 
+[error] 145 |          case Won | Lost | GameQuit =>
+[error]     |                     ^^^^
+[error]     |        Found:    (huntedlaby.GameStatus.Lost : huntedlaby.GameStatus)
+[error]     |        Required: Option[huntedlaby.PlayerInput]
+[error]     |        pattern type is incompatible with expected type
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\Main.scala:145:28 
+[error] 145 |          case Won | Lost | GameQuit =>
+[error]     |                            ^^^^^^^^
+[error]     |        Found:    (huntedlaby.GameStatus.Quit : huntedlaby.GameStatus)
+[error]     |        Required: Option[huntedlaby.PlayerInput]
+[error]     |        pattern type is incompatible with expected type
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[warn] -- Warning: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\Main.scala:147:12 
+[warn] 147 |            inputName match {
+[warn]     |            ^
+[warn]     |            Line is indented too far to the left, or a `}` is missing
+[warn] -- Warning: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\Main.scala:157:4 
+[warn] 157 |    attachHandlers(newInitialState())
+[warn]     |    ^
+[warn]     |    Line is indented too far to the left, or a `}` is missing
+[warn] two warnings found
+[error] four errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 5 déc. 2025, 15:03:55
+[debug] > Exec(idea-shell, None, None)

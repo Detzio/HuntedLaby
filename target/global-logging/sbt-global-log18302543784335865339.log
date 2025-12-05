@@ -1,0 +1,34 @@
+[debug] > Exec(all {file:/C:/Users/detzi/Desktop/ESGI/ESGI4/T1B4.%20Programmation%20fonctionnelle%20avec%20scala/TD3/HuntedLaby/}huntedlaby/products {file:/C:/Users/detzi/Desktop/ESGI/ESGI4/T1B4.%20Programmation%20fonctionnelle%20avec%20scala/TD3/HuntedLaby/}huntedlaby/Test/products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\target\scala-3.3.7\classes ...
+[error] -- [E007] Type Mismatch Error: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\logic.scala:11:73 
+[error] 11 |    val (player, hunter, exit, rng2) = MazeGenerator.placeEntities(maze, rng1)
+[error]    |                                                                         ^^^^
+[error]    |                                       Found:    (rng1 : huntedlaby.Rng)
+[error]    |                                       Required: Int
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- Error: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\logic.scala:15:16 
+[error] 15 |      hunterPos = hunter,
+[error]    |      ^^^^^^^^^^^^^^^^^^
+[error]    |method apply in object GameState: (maze: huntedlaby.Maze, playerPos: huntedlaby.Coord,
+[error]    |  hunterPositions: List[huntedlaby.Coord], exitPos: huntedlaby.Coord,
+[error]    |  rng: huntedlaby.Rng, status: huntedlaby.GameStatus, turn: Int):
+[error]    |  huntedlaby.GameState does not have a parameter hunterPos
+[error] -- [E008] Not Found Error: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\logic.scala:88:53 
+[error] 88 |        val newHunter = hunterStep(state.maze, state.hunterPos, state.playerPos)
+[error]    |                                               ^^^^^^^^^^^^^^^
+[error]    |                 value hunterPos is not a member of huntedlaby.GameState
+[error] -- Error: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\logic.scala:92:29 
+[error] 92 |        state.copy(hunterPos = newHunter, status = newStatus)
+[error]    |                   ^^^^^^^^^^^^^^^^^^^^^
+[error]    |method copy in class GameState: (maze: huntedlaby.Maze, playerPos: huntedlaby.Coord,
+[error]    |  hunterPositions: List[huntedlaby.Coord], exitPos: huntedlaby.Coord,
+[error]    |  rng: huntedlaby.Rng, status: huntedlaby.GameStatus, turn: Int):
+[error]    |  huntedlaby.GameState does not have a parameter hunterPos
+[error] four errors found
+[debug] Forcing garbage collection...
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 3 s, completed 5 déc. 2025, 15:18:02
+[debug] > Exec(idea-shell, None, None)

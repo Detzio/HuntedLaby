@@ -1,0 +1,130 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\detzi\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\detzi\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.11.7 (Eclipse Adoptium Java 21.0.4)
+[debug]       Load.loadUnit: plugins took 78.6538ms
+[debug]       Load.loadUnit: defsScala took 0.2753ms
+[debug] [Loading] Scanning directory C:\Users\detzi\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\detzi\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 20.1875 ms
+[debug]           Load.resolveProject(global-plugins) took 47.5329ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\detzi\.sbt\1.0\plugins, plugins: List(<none>))) took 84.7163ms
+[debug] [Loading] Done in C:\Users\detzi\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 124.0168ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.1809ms
+[debug]     Load.loadUnit(file:/C:/Users/detzi/.sbt/1.0/plugins/, ...) took 216.1109ms
+[debug]   Load.apply: load took 441.6101ms
+[debug]   Load.apply: resolveProjects took 15.2236ms
+[debug]   Load.apply: finalTransforms took 107.2419ms
+[debug]   Load.apply: config.delegates took 23.7084ms
+[debug]   Load.apply: Def.make(settings)... took 944.7795ms
+[debug]   Load.apply: structureIndex took 245.5989ms
+[debug]   Load.apply: mkStreams took 8.0279ms
+[info] loading global plugins from C:\Users\detzi\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 6541.7074ms
+[debug]           Load.loadUnit: plugins took 29.0799ms
+[debug]           Load.loadUnit: defsScala took 0.0042ms
+[debug] [Loading] Scanning directory C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\project
+[debug]             Load.loadUnit: mkEval took 9.634ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.8866 ms
+[info] loading settings for project huntedlaby-build from idea.sbt...
+[debug]               Load.resolveProject(huntedlaby-build) took 6.5452ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id huntedlaby-build, base: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\project, plugins: List(<none>))) took 8.9511ms
+[debug] [Loading] Done in C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\project, returning: (huntedlaby-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3806.8633ms
+[debug]           Load.loadUnit: cleanEvalClasses took 7.3771ms
+[debug]         Load.loadUnit(file:/C:/Users/detzi/Desktop/ESGI/ESGI4/T1B4.%20Programmation%20fonctionnelle%20avec%20scala/TD3/HuntedLaby/project/, ...) took 3844.5775ms
+[debug]       Load.apply: load took 3847.3369ms
+[debug]       Load.apply: resolveProjects took 0.3824ms
+[debug]       Load.apply: finalTransforms took 11.7352ms
+[debug]       Load.apply: config.delegates took 0.5051ms
+[debug]       Load.apply: Def.make(settings)... took 76.1592ms
+[debug]       Load.apply: structureIndex took 34.0414ms
+[debug]       Load.apply: mkStreams took 0.0118ms
+[info] loading project definition from C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4639.7947ms
+[debug]     Load.loadUnit: defsScala took 0.0061ms
+[debug] [Loading] Scanning directory C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby
+[debug]       Load.loadUnit: mkEval took 2.1605ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.GenerateAllManagedSourcesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.GenerateAllManagedSourcesPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,org.jetbrains.sbt.GenerateAllManagedSourcesPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.9822 ms
+[info] loading settings for project huntedlaby from build.sbt...
+[debug]         Load.resolveProject(huntedlaby) took 83.9341ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id huntedlaby, base: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby, plugins: List(<none>))) took 88.7573ms
+[debug] [Loading] Done in C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby, returning: (huntedlaby)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1467.3583ms
+[debug]     Load.loadUnit: cleanEvalClasses took 10.465ms
+[debug]   Load.loadUnit(file:/C:/Users/detzi/Desktop/ESGI/ESGI4/T1B4.%20Programmation%20fonctionnelle%20avec%20scala/TD3/HuntedLaby/, ...) took 6119.1967ms
+[debug] Load.apply: load took 6122.0766ms
+[debug] Load.apply: resolveProjects took 0.1234ms
+[debug] Load.apply: finalTransforms took 34.0796ms
+[debug] Load.apply: config.delegates took 0.5871ms
+[debug] Load.apply: Def.make(settings)... took 94.1758ms
+[debug] Load.apply: structureIndex took 29.8283ms
+[debug] Load.apply: mkStreams took 0.0032ms
+[info] set current project to huntedlaby (in build file:/C:/Users/detzi/Desktop/ESGI/ESGI4/T1B4.%20Programmation%20fonctionnelle%20avec%20scala/TD3/HuntedLaby/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,13 @@
+[error] -- [E018] Syntax Error: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\logic.scala:45:81 
+[error] 45 |  private def findPath(maze: Maze, from: Coord, to: Coord): Option[List[Coord]] =
+[error]    |                                                                                 ^
+[error]    |                                   expression expected but private found
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E006] Not Found Error: C:\Users\detzi\Desktop\ESGI\ESGI4\T1B4. Programmation fonctionnelle avec scala\TD3\HuntedLaby\src\main\scala\huntedlaby\Main.scala:149:31 
+[error] 149 |                    val next = step(current, in)
+[error]     |                               ^^^^
+[error]     |                               Not found: step
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] two errors found
